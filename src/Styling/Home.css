@@ -1,0 +1,40 @@
+.Home {
+  /* background-image: url("https://i.postimg.cc/qRMkDVZY/Group-8276-2x.png"); */
+  background-image: url(../Component/Assets/Group\ 8276@2x.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 100vh;
+}
+.main {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  gap: 1rem;
+  position: relative;
+  top: 250px;
+  left: 260px;
+}
+
+@media only screen and (max-width: 768px) and (min-width: 320px) {
+  .Home {
+    background-position: center;
+    height: 50vh;
+  }
+  .main {
+    display: flex;
+    flex-direction: column;
+    top: 100px;
+    left: 36px;
+  }
+}
+
+.heading {
+  display: flex;
+  flex-direction: column;
+  font-family: Montserrat, Bold;
+  font-size: 40px;
+}
+.getbtn {
+  display: flex;
+}
