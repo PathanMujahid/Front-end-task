@@ -1,6 +1,5 @@
 import React from "react";
 import "../Styling/Footer.css";
-import { Link } from "react-router-dom";
 const Footer = () => {
   return (
     <>
@@ -54,19 +53,13 @@ const Footer = () => {
                 </div>
               </div>
             </div>
-            {/* <div className="footerlinks"> */}
+
             <div className="col-md-6 col-lg-2 col-sm-6 mb-2">
               <div className="footerList">
                 <h5>Company</h5>
-                <Link className="footerlink" to="/">
-                  Home
-                </Link>
-                <Link className="footerlink" to="/about">
-                  About
-                </Link>
-                <Link className="footerlink" to="/contact-us">
-                  Contact
-                </Link>
+                <a>Home</a>
+                <a>About</a>
+                <a>Contact</a>
               </div>
             </div>
 
@@ -89,8 +82,6 @@ const Footer = () => {
           </div>
         </div>
       </div>
-      {/* </div> */}
-
       <div className="footercopyright">2020 All rights reserved</div>
     </>
   );
